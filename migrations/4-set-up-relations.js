@@ -9,7 +9,7 @@ module.exports = {
       {
         references: {
           model: "categories",
-          key: "categoryId",
+          key: "id",
         },
         onUpdate: "CASCADE",
         onDelete: "SET NULL",
